@@ -1,0 +1,60 @@
+:root {
+  --body-bg: #e8e8e8;
+  --black:#03001C;
+  --black500:#03001a80;
+  --white:#fff;
+  --cubic:cubic-bezier(.53,.65,.59,1.2);
+  --transition2: all 0.2s var(--cubic) ;
+  --transition3: all 0.3s var(--cubic) ;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif !important;
+  font-family: "Nunito", sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--white) !important;
+  width: 100%;
+}
+.hide {
+  display: none !important;
+}
+a,
+a:focus,
+a:hover {
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+input,
+textarea {
+  border: none;
+  outline: none !important;
+  background: none;
+}
+button {
+  outline: none !important;
+  background: none;
+  border: none;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}

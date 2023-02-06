@@ -1,0 +1,61 @@
+.counter {
+  button {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    font-size: 25px;
+    padding: 0;
+    border-color: var(--black);
+    color: var(--black);
+    &:hover {
+      background: var(--black);
+    }
+  }
+}
+.togglePassword {
+  input {
+    border: 1px solid var(--black500);
+    border-radius: 3px;
+    padding: 10px;
+    line-height: 30px;
+    width: 250px;
+    max-width: 100%;
+    &:focus {
+      border-color: var(--black);
+    }
+  }
+  .showPasswordBtn {
+    user-select: none;
+  }
+}
+.RegisterForm {
+  .wrapper {
+    > div {
+      display: flex;
+      align-items: center;
+      color: var(--black);
+      input {
+        width: 300px;
+        line-height: 30px;
+        border: 1px solid var(--black500);
+        display: block;
+        padding: 2px 10px;
+        margin: 5px 0;
+        border-radius: 3px;
+        margin-right: 10px;
+        &:focus {
+          border-color: var(--black);
+        }
+      }
+    }
+    button {
+      background: var(--black);
+      color: var(--white);
+      &:hover {
+        background: none;
+        color: var(--black);
+      }
+    }
+  }
+}
